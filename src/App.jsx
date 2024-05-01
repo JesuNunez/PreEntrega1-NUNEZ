@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <h1>Bienvenido a mi e-commerce</h1>
+      <h1>Bienvenido a mi eCommerce</h1>
     </>
   );
 }

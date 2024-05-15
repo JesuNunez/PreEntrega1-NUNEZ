@@ -1,18 +1,35 @@
 import './NavBar.css';
+import React, { useState } from 'react';
 import CartWidget from './CartWidget';
 
 export default function NavBar() {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
   return (
     <>
-      <div className="nav-container">
-        <nav className="navbar">
-          <h1 className="navbar-logo">Shop</h1>
-          <h1 className="navbar-col">Zapatillas</h1>
-          <h1 className="navbar-col">Pantalones</h1>
-          <h1 className="navbar-col">Remeras</h1>
-          <CartWidget /> 
-        </nav>
-      </div>
+      <nav>
+        <div className="navbar">
+        <div className="logo">
+        <img src="../img/logo.jpg" alt="Logo" />
+        </div>
+          <div className="search">
+            <input
+              type="text"
+              placeholder="🔎Buscar..."
+              value={searchTerm}
+              onChange={handleChange}
+            />
+          </div>
+
+          <div className="Carrito">
+            <CartWidget />
+          </div>
+        </div>
+      </nav>
     </>
   );
 }

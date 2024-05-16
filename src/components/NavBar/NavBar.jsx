@@ -14,7 +14,7 @@ export default function NavBar() {
       <nav>
         <div className="navbar">
         <div className="logo">
-        <img src="../img/logo.jpg" alt="Logo" />
+        <img src="https://img.freepik.com/vector-gratis/diseno-logotipo-tienda-instagram-degradado_23-2149718661.jpg?w=826&t=st=1715866357~exp=1715866957~hmac=dfe7a936491c38b8b1b62c90adf250645e13d565a112afc4b6097d64ae70f354" alt="Logo" />
         </div>
           <div className="search">
             <input

@@ -3,14 +3,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #303030;
+  background-color: #321165;
   padding: 10px 20px;
   margin: -10px;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+.logo img{
+  width: 55px;
+  height: 60px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  cursor: pointer;
 }
 
 .search {

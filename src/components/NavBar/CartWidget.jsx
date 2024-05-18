@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
 import './CartWidget.css'; 
 
@@ -11,4 +11,4 @@ function CartWidget() {
     );
 }
 
-export default CartWidget;
+export default CartWidget;*/
